@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@400&display=swap');
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bgImage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.glassmorphismBox {
+  width: 400px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Font Customization */
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+p, span, .input {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.input {
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* Button Customization */
+.button {
+  margin-top: 10px;
+  background-color: #0c97a5 !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.divider {
+  margin: 15px 0;
+  color: white;
+}
+
+/* Social Button Section */
+.socialButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
+
+.socialButton {
+  flex: 1;
+  text-transform: none !important;
+  font-weight: bold !important;
+  border-radius: 8px !important;
+  padding: 10px 0 !important;
+}
+
+/* Google & Facebook Button Colors */
+.google {
+  background-color: #db4437 !important;
+  color: white !important;
+}
+
+.facebook {
+  background-color: #1877f2 !important;
+  color: white !important;
+}
+
+/* Toggle Text */
+.toggleText {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.toggleText span {
+  color: #0c97a5;
+  cursor: pointer;
+  font-weight: bold;
+}
